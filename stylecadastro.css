@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin:0 auto;
+    padding: 0 2%;
+
+}
+
+html.body{
+    height:100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+header{
+    padding:20px 0;
+}
+.logo{
+    width: 50%;
+
+}
+.menu{
+  padding-top: 30px;
+    width:50%;
+    text-align: right;
+}
+.menu a{
+    color: rgb(88, 2, 114);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right:15px;
+}
+section.sobre{
+    position: relative;
+    height: calc(100% - 200px);
+
+}
+.extras{
+    position: absolute;
+    bottom: 200px;
+    right: 100px;
+    width: 500px;
+    height: 500px;
+    border-radius:30%;
+    background-color: blueviolet;
+}
+
+#logo{
+    width:100px ;
+    height: 100px;
+}
+.texto-sobre{
+    margin-top: 200px;
+
+}
+.texto-sobre h1{
+    font-size: 200%;
+}
+.texto-sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+.texto-sobre button{
+    border: 0;
+    background-color: blueviolet;
+    border-radius: 8px;
+    color: aliceblue;
+}
+
+section.cadastro {
+    padding: 40px 0;
+    background-color: white;
+}
+
+.cadastro h1 {
+    text-align: center;
+    color: rgb(88, 2, 114);
+    margin-bottom: 20px;
+}
+
+.cadastro form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cadastro label {
+    font-size: 16px;
+    color: rgb(88, 2, 114);
+    font-weight: bold;
+}
+
+.cadastro input {
+    padding: 10px;
+    border: 1px solid rgb(88, 2, 114);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.cadastro button {
+    padding: 10px;
+    background-color: rgb(88, 2, 114);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cadastro button:hover {
+    background-color: rgb(66, 1, 85);
+}
+
